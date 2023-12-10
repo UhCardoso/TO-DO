@@ -1,0 +1,95 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #403097;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px 10px;
+}
+
+h2, h3, h4 {
+    color: aliceblue;
+}
+
+.box-add {
+    width: 100%;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px;
+    background-color: #e1dfd5;
+    margin-bottom: 20px;
+}
+.box-add h4 {
+    color: black;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: 1px solid gray;
+}
+
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+    border: 1px solid gray;
+    background: #403097;
+    color: aliceblue;
+    padding: 5px 13px;
+}
+input[type='submit']:hover{
+    opacity: 0.5;
+}
+
+#editForm {
+    display: none;
+}
+
+p {
+    background: #e1dfd5;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    border: none;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+    border: none;
+    background: #e1dfd5;
+    color: black;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+    border: none;
+}
+
+tr {
+    border-top: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+table tr td button {
+    border-radius: 5px;
+    border: none;
+}
+table tr td button:hover {
+    opacity: 0.5;
+}
